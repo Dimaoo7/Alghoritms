@@ -19,5 +19,6 @@ public class Main {
         stringList.remove("пять");
         System.out.println(stringList);
 
+
     }
 }
