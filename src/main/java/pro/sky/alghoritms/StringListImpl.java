@@ -168,10 +168,10 @@ public class StringListImpl implements StringList {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         for (String el : storage) {
             if (el != null) {
-                sb.append(el + " ");
+                sb.append(el).append(" ");
             }
         }
         return sb.toString();
